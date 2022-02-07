@@ -40,7 +40,7 @@ const Projects: NextPage = () => {
                         <p>{project.title}</p>
                       </div>
                       <div className={Styles.imageContainer}>
-                        <Link href={""} passHref>
+                        <Link href={"/projects/" + project.id} passHref>
                           <Image src={project.pic} alt="logo" />
                         </Link>
                       </div>
@@ -65,3 +65,5 @@ const Projects: NextPage = () => {
 };
 
 export default Projects;
+
+
