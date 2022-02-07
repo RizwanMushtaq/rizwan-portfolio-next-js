@@ -24,87 +24,90 @@ const Home: NextPage = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <div className={Styles.WelcomeCardContainer}>
+        <Card type={"welcomeCard"}>
+          <div className={Styles.container}>
+            <div className={Styles.allContentContainer}>
+              <div className={Styles.introduction}>
+                <div className={Styles.greeting}>Hello</div>
+                <div className={Styles.description}>
+                  <div>Welcome I&apos;m Rizwan Mushtaq Dhudhaal. 😇</div>
+                  <ul>
+                    <li>
+                      <div>❇️</div>
+                      <div className={Styles.text}>
+                        I am a Full Stack Web Developer. I am confident in
+                        JavaScript, TypeScript, React.JS and Node.JS.
+                      </div>
+                    </li>
 
-      <Card type={"welcomeCard"}>
-        <div className={Styles.container}>
-          <div className={Styles.allContentContainer}>
-            <div className={Styles.introduction}>
-              <div className={Styles.greeting}>Hello</div>
-              <div className={Styles.description}>
-                <div>Welcome I&apos;m Rizwan Mushtaq Dhudhaal. 😇</div>
-                <ul>
-                  <li>
-                    <div>❇️</div>
-                    <div className={Styles.text}>
-                      I am a Full Stack Web Developer. I am confident in
-                      JavaScript, TypeScript, React.JS and Node.JS.
-                    </div>
-                  </li>
+                    <li>
+                      <div>❇️</div>
+                      <div className={Styles.text}>
+                        I have around 5 years of Experience, working in the
+                        information technology and services industry.
+                      </div>
+                    </li>
 
-                  <li>
-                    <div>❇️</div>
-                    <div className={Styles.text}>
-                      I have around 5 years of Experience, working in the
-                      information technology and services industry.
-                    </div>
-                  </li>
-
-                  <li>
-                    <div>❇️</div>
-                    <div className={Styles.text}>
-                      I have 3 years of experience working with Agile Teams.
-                      Ensuring Quality of software products by working closely
-                      with DEV, UX, UA, Role Portfolio Managers and Customers.
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <div className={Styles.contactContainer}>
-                <div className={Styles.logoContainer}>
-                  <Image height={30} width={30} src={resumeIcon} alt="resume" />
+                    <li>
+                      <div>❇️</div>
+                      <div className={Styles.text}>
+                        I have 3 years of experience working with Agile Teams.
+                        Ensuring Quality of software products by working closely
+                        with DEV, UX, UA, Role Portfolio Managers and Customers.
+                      </div>
+                    </li>
+                  </ul>
                 </div>
-                <a href='/assets/images/AppPage-464-256.png' target="_blank" rel="noreferrer">
-                  resume
-                </a>
-              </div>
-              <div className={Styles.contactContainer}>
-                <div className={Styles.logoContainer}>
-                  <Image height={30} width={30} src={envelope} alt="email" />
+                <div className={Styles.contactContainer}>
+                  <div className={Styles.logoContainer}>
+                    <Image height={30} width={30} src={resumeIcon} alt="resume" />
+                  </div>
+                  <a href='/assets/images/AppPage-464-256.png' target="_blank" rel="noreferrer">
+                    resume
+                  </a>
                 </div>
-                <a
-                  href="https://mail.google.com/mail"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  rizwanmushtaq15@gmail.com
-                </a>
-              </div>
-              <div className={Styles.contactContainer}>
-                <div className={Styles.logoContainer}>
-                  <Image height={30} width={30} src={linkedIn} alt="email" />
+                <div className={Styles.contactContainer}>
+                  <div className={Styles.logoContainer}>
+                    <Image height={30} width={30} src={envelope} alt="email" />
+                  </div>
+                  <a
+                    href="https://mail.google.com/mail"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    rizwanmushtaq15@gmail.com
+                  </a>
                 </div>
-                <a
-                  href="https://www.linkedin.com/in/rizwan-mushtaq-dhudhaal-7a4091128/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Rizwan Mushtaq Dhudhaal
-                </a>
+                <div className={Styles.contactContainer}>
+                  <div className={Styles.logoContainer}>
+                    <Image height={30} width={30} src={linkedIn} alt="email" />
+                  </div>
+                  <a
+                    href="https://www.linkedin.com/in/rizwan-mushtaq-dhudhaal-7a4091128/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Rizwan Mushtaq Dhudhaal
+                  </a>
+                </div>
+              </div>
+              <div className={Styles.avatar}>
+                <Image src={RizwanPic} alt="rizwan-pic" />
               </div>
             </div>
-            <div className={Styles.avatar}>
-              <Image src={RizwanPic} alt="rizwan-pic" />
+            <div className={Styles.rightArrowContainer}>
+              <div className={Styles.rightArrowContainerInner}>
+                <Link href="/projects" passHref>
+                  <div className={Styles.imgContainer}>
+                    <Image height={30} width={30} src={arrowIcon} alt="arrowIcon" />
+                  </div>
+                </Link>
+              </div>
             </div>
           </div>
-          <div className={Styles.rightArrowContainer}>
-            <div className={Styles.rightArrowContainerInner}>
-              <Link href="/projects" passHref>
-                <Image src={arrowIcon} alt="arrowIcon" />
-              </Link>
-            </div>
-          </div>
-        </div>
-      </Card>
+        </Card>
+      </div>
     </div>
   );
 };

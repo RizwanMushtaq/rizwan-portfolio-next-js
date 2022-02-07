@@ -1,0 +1,96 @@
+.projectsCardContainer{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+.rightArrowContainer{
+    width: 48px;
+    height: 100vh;
+    // background-color: lightgreen;
+
+    position: sticky;
+    top: 0;
+
+}
+.rightArrowContainerInner{
+    width: 48px;
+    height: 48px;
+    // background-color: lightgoldenrodyellow;
+
+    position: absolute;
+    top: 50%;
+    margin-top: -24px;
+    left: 0;
+
+}
+.imgContainer{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightArrowContainerInner:hover{
+    background-color: lightskyblue;
+}
+.rightArrowContainerInner img{
+    width: 75%;
+    height: 75%;
+    transform: rotate(180deg);
+}
+
+
+.allProjectsContainer{
+    // max-width: 952px;
+    padding-top: 2rem;
+    flex: 1;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.titleContainer{
+    height: 100px;
+    width: 100%;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imageContainer{
+    width: 100%;
+    height: 200px;
+}
+.imageContainer img{
+    width: 100%;
+    height: 100%;
+}
+.buttonContainer{
+    height: 100px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.buttonContainer button{
+    background-color: white;
+    border: none;
+    width: 124px;
+    height: 36px;
+
+    font-size: 20px;
+    cursor: pointer;
+}
