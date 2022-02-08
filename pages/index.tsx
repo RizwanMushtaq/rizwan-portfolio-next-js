@@ -6,12 +6,12 @@ import Styles from "./index.module.scss";
 
 import Card from "../components/Card";
 
-import cv from "../assets/resume/CV_Rizwan-1.jpg";
-import RizwanPic from "../assets/images/rizwan-pic.jpeg";
-import envelope from "../assets/icons/envelope-regular.svg";
-import linkedIn from "../assets/icons/linkedin-in-brands.svg";
-import resumeIcon from "../assets/icons/file-regular.svg";
-import arrowIcon from "../assets/icons/Pfeilrechts.svg";
+const cv = "/assets/resume/CV_Rizwan-1.jpg";
+const RizwanPic = "/assets/images/rizwan-pic.jpeg";
+const envelope = "/assets/icons/envelope-regular.svg";
+const linkedIn = "/assets/icons/linkedin-in-brands.svg";
+const resumeIcon = "/assets/icons/file-regular.svg";
+const arrowIcon = "/assets/icons/Pfeilrechts.svg";
 
 const Home: NextPage = () => {
   return (
@@ -93,7 +93,7 @@ const Home: NextPage = () => {
                 </div>
               </div>
               <div className={Styles.avatar}>
-                <Image src={RizwanPic} alt="rizwan-pic" />
+                <Image src={RizwanPic} alt="rizwan-pic" height={250} width={300} />
               </div>
             </div>
             <div className={Styles.rightArrowContainer}>

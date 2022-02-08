@@ -1,34 +1,37 @@
-import {useRouter} from 'next/router'
-import { projects } from "../../assets/projectsData/AllProjects"
+import { useRouter } from "next/router";
+import { projects } from "../../projectsData/AllProjects";
 
-const ProjectDetails = () => {
-  const router = useRouter()
+const ProjectDetails = ({ data }) => {
+  const router = useRouter();
 
-  router.query.projectId
-  console.log(router.query.projectId)
+  router.query.projectId;
+  console.log(router.query.projectId);
 
   return (
-    <div>ProjectDetails</div>
-  )
+    <>
+      <div>ProjectDetails</div>
+      <div>{data.title}</div>
+    </>
+  );
+};
+
+export default ProjectDetails;
+
+export async function getStaticPaths() {
+  return {
+    fallback: false,
+    paths: projects.map((project) => ({
+      params: { projectId: project.id.toString() },
+    })),
+  };
 }
 
-export default ProjectDetails
+export async function getStaticProps() {
+  const data = projects;
 
-// export async function getStaticPaths() {
-//   return {
-//     fallback: false,
-//     path: projects.map((project) => {
-//       return {
-//         params: {
-//           projectId: project.id,
-//         },
-//       };
-//     }),
-//   };
-// }
-
-// export async function getStaticProps({ params }) {
-//     return {
-
-//     }
-// }
+  return {
+    props: {
+      data,
+    },
+  };
+}

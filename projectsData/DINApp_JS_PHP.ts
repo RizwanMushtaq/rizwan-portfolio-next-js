@@ -1,5 +1,5 @@
 import { Project } from './ProjectInterface'
-import doItNowApp_js_php_pic from '../images/doitnow_php_364-255.png'
+const doItNowApp_js_php_pic = '/assets/images/doitnow_php_364-255.png'
 
 export const DINApp_JS_PHP: Project = {
     id: 1,

@@ -1,5 +1,5 @@
 import { Project } from './ProjectInterface'
-import doItNowApp_restapi_pic from '../images/RestApi-568-256.png'
+const doItNowApp_restapi_pic = '/assets/images/RestApi-568-256.png'
 
 export const DINApp_RESTfulAPI: Project = {
     id: 2,

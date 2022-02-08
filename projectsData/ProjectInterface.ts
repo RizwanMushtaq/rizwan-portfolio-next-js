@@ -1,7 +1,7 @@
 export interface Project {
     id: number,
     title: string,
-    pic: StaticImageData,
+    pic: string,
     demoLink: string,
     codeLink: string, 
     description: {

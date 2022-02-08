@@ -1,18 +1,18 @@
 import { Project } from './ProjectInterface'
-import doItNowApp_react_ts_redux_pic from '../images/doitnow-react-ts-redux.png'
+const doItNowApp_react_ts_useContext_pic = '/assets/images/doitnow_react_ts_useContext.png'
 
-export const DINApp_React_TS_Redux: Project = {
-    id: 5,
-    title: 'Do It Now App (React TypeScript Redux)',
-    pic: doItNowApp_react_ts_redux_pic,
-    demoLink: 'https://doitnow-react-ts-redux.netlify.app/',
-    codeLink: 'https://github.com/RizwanMushtaq/doitnow_react_ts_redux',
+export const DINApp_React_TS_useContext: Project = {
+    id: 4,
+    title: 'Do It Now App (React TypeScript useContext)',
+    pic: doItNowApp_react_ts_useContext_pic,
+    demoLink: 'https://doitnow-react-ts-usecontext.netlify.app/',
+    codeLink: 'https://github.com/RizwanMushtaq/doitnow_frontend_react_ts_useContext',
     description: {
         technologies: [
             'React.js',
             'TypeScript',
-            'State management by Redux Toolkit',
-            'React Hooks(useEffect, useRef)',
+            'State management by useContext Hook',
+            'React Hooks(useSatate, useEffect, useRef)',
             'Axios',
             'User Authorization using JSON web tokens',
             'Calender rendering using date-fns',

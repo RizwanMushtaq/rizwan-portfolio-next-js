@@ -1,5 +1,5 @@
 import { Project } from './ProjectInterface'
-import printMyTweetApp_pic from '../images/PrintMyTweetAppImage-364.png'
+const printMyTweetApp_pic = '/assets/images/PrintMyTweetAppImage-364.png'
 
 export const PrintMyTweetApp: Project = {
     id: 0,

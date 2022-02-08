@@ -4,9 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 import Styles from "./index.module.scss";
 
-import { projects } from "../../assets/projectsData/AllProjects";
+import { projects } from "../../projectsData/AllProjects";
 import Card from "../../components/Card";
-import arrowIcon from "../../assets/icons/Pfeilrechts.svg";
+const arrowIcon = "/assets/icons/Pfeilrechts.svg";
 
 const Projects: NextPage = () => {
   return (
@@ -41,7 +41,7 @@ const Projects: NextPage = () => {
                       </div>
                       <div className={Styles.imageContainer}>
                         <Link href={"/projects/" + project.id} passHref>
-                          <Image src={project.pic} alt="logo" />
+                          <Image src={project.pic} height={220} width={300} alt="logo" />
                         </Link>
                       </div>
                       <div className={Styles.buttonContainer}>

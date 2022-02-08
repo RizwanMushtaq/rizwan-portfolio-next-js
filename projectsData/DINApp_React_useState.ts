@@ -1,5 +1,5 @@
 import { Project } from './ProjectInterface'
-import doItNowApp_react_useState_pic from '../images/AppPage-464-256.png'
+const doItNowApp_react_useState_pic = '/assets/images/AppPage-464-256.png'
 
 export const DINApp_React_useState: Project = {
     id: 3,
