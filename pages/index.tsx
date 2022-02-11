@@ -47,6 +47,8 @@ const Home: NextPage = () => {
           property="og:url" 
           content="https://rizwan-portfolio-next-js.vercel.app/" 
         />
+        <meta name="author" content="Rizwan Mushtaq Dhudhaal" />
+        
         
         <meta property="fb:app_id" content="rizwanmushtaqdhudhaal" />
         <meta name="twitter:card" content="summary" />
