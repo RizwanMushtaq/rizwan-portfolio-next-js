@@ -21,7 +21,7 @@ const Home: NextPage = () => {
         <meta
           name="title"
           property="og:title"
-          content="Social Media Preview Working?"
+          content="Rizwan Mushtaq Dhudhaal"
         />
         <meta
           name="type" 
@@ -31,7 +31,7 @@ const Home: NextPage = () => {
         <meta
           name="description"
           property="og:description"
-          content="Rizwan Mushtaq Dhudhaal Portfolio WebApp generated in Next.js"
+          content="Its Portfolio WebApp generated in Next.js"
         />
         <meta
           name="image" 
