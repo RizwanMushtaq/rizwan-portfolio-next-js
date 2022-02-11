@@ -31,12 +31,12 @@ const Home: NextPage = () => {
         <meta
           name="description"
           property="og:description"
-          content="Its Portfolio WebApp generated in Next.js"
+          content="Hallo, I'm Rizwan Mushtaq Dhudhaal. I am Full stack web developer."
         />
         <meta
           name="image" 
           property="og:image" 
-          content={RizwanPic} 
+          content={arrowIcon} 
         />
         <meta
           name="url" 
