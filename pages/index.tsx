@@ -36,7 +36,7 @@ const Home: NextPage = () => {
         <meta
           name="image" 
           property="og:image" 
-          content={arrowIcon} 
+          content="/assets/images/RizwanMushtaq.png" 
         />
         <meta
           name="url" 
