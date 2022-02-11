@@ -39,9 +39,9 @@ const Projects: NextPage = () => {
                       <div className={Styles.titleContainer}>
                         <p>{project.title}</p>
                       </div>
-                      <div className={Styles.imageContainer}>
+                      <div className={Styles.projectImageContainer}>
                         <Link href={"/projects/" + project.id} passHref>
-                          <Image src={project.pic} height={220} width={300} alt="logo" />
+                          <Image src={project.pic} width={288} height={200} alt="logo" />
                         </Link>
                       </div>
                       <div className={Styles.buttonContainer}>

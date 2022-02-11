@@ -40,8 +40,8 @@ const ProjectDetails = (props: any) => {
               <div className={Styles.imgContainer}>
                 <Image
                   src={projectData.pic}
-                  height={200}
                   width={300}
+                  height={200}
                   alt="project-pic"
                 />
               </div>

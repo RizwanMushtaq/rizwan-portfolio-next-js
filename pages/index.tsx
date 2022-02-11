@@ -6,7 +6,7 @@ import Styles from "./index.module.scss";
 
 import Card from "../components/Card";
 
-const cv = "/assets/resume/CV_Rizwan-1.jpg";
+const cv = "/assets/resume/CV_Rizwan.pdf";
 const RizwanPic = "/assets/images/rizwan-pic.jpeg";
 const envelope = "/assets/icons/envelope-regular.svg";
 const linkedIn = "/assets/icons/linkedin-in-brands.svg";
@@ -63,7 +63,7 @@ const Home: NextPage = () => {
                   <div className={Styles.logoContainer}>
                     <Image height={30} width={30} src={resumeIcon} alt="resume" />
                   </div>
-                  <a href='/assets/images/AppPage-464-256.png' target="_blank" rel="noreferrer">
+                  <a href={cv} target="_blank" rel="noreferrer">
                     resume
                   </a>
                 </div>
@@ -93,7 +93,7 @@ const Home: NextPage = () => {
                 </div>
               </div>
               <div className={Styles.avatar}>
-                <Image src={RizwanPic} alt="rizwan-pic" height={250} width={300} />
+                <Image src={RizwanPic} alt="rizwan-pic" height={300} width={400} />
               </div>
             </div>
             <div className={Styles.rightArrowContainer}>
