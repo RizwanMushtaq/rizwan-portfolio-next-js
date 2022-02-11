@@ -47,9 +47,8 @@ const Home: NextPage = () => {
           content="https://rizwan-portfolio-next-js.vercel.app/" 
         />
         
-        {/* <meta property="fb:app_id" content="rizwanmushtaqdhudhaal" />
-        <meta property="linkedIn:app_id" content="rizwanmushtaqdhudhaal" />
-        <meta name="twitter:card" content="summary" /> */}
+        <meta property="fb:app_id" content="rizwanmushtaqdhudhaal" />
+        <meta name="twitter:card" content="summary" />
        
         <link rel="icon" href="/favicon.ico" />
       </Head>
