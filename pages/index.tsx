@@ -33,13 +33,12 @@ const Home: NextPage = () => {
         <meta
           name="description"
           property="og:description"
-          content="Hallo, I'm Rizwan Mushtaq Dhudhaal. I am Full stack web developer."
+          content="Hallo, I'm Rizwan Mushtaq Dhudhaal. I am a Full stack web developer."
         />
         <meta
           name="image" 
           property="og:image" 
-          // content="/assets/images/RizwanMushtaq.png"
-          content="https://rizwan-portfolio-next-js.vercel.app/assets/images/RizwanMushtaq.png" 
+          content="https://rizwan-portfolio-next-js.vercel.app/assets/images/previewImage.png" 
         />
         <meta
           name="url" 
