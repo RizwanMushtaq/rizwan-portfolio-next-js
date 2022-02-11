@@ -34,9 +34,9 @@ const Home: NextPage = () => {
           property="og:description"
           content="Hurray!! Yes Social Media Preview is Working"
         />
-        <meta property="og:image" content={"/favicon.ico"} />
+        <meta property="og:image" content={RizwanPic} />
 
-        <link rel="icon" href={RizwanPic} />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className={Styles.WelcomeCardContainer}>
