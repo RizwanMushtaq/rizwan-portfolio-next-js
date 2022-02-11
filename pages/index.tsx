@@ -35,8 +35,8 @@ const Home: NextPage = () => {
         />
         <meta
           name="image" 
-          property="og:image" 
-          content="/assets/images/RizwanMushtaq.png" 
+          property="og:image:type" 
+          content="/assets/images/RizwanMushtaq.png/png" 
         />
         <meta
           name="url" 
