@@ -21,7 +21,7 @@ const Home: NextPage = () => {
         <meta
           name="title"
           property="og:title"
-          content="Rizwan Mushtaq Dhudhaal"
+          content="Rizwan Mushtaq Dhudhaal WebApp Portfolio"
         />
         <meta
           name="type" 
