@@ -39,7 +39,7 @@ const Home: NextPage = () => {
           name="image" 
           property="og:image" 
           // content="/assets/images/RizwanMushtaq.png"
-          content="https://upload.wikimedia.org/wikipedia/commons/3/3b/Frauenkirche_and_Neues_Rathaus_Munich_March_2013.JPG" 
+          content="https://rizwan-portfolio-next-js.vercel.app/assets/images/RizwanMushtaq.png" 
         />
         <meta
           name="url" 
