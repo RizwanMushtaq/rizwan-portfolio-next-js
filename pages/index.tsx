@@ -17,7 +17,9 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
+        
         <title>Rizwan Portfolio</title>
+        
         <meta
           name="title"
           property="og:title"
@@ -35,8 +37,9 @@ const Home: NextPage = () => {
         />
         <meta
           name="image" 
-          property="og:image:type" 
-          content="/assets/images/RizwanMushtaq.png/png" 
+          property="og:image" 
+          // content="/assets/images/RizwanMushtaq.png"
+          content="https://upload.wikimedia.org/wikipedia/commons/3/3b/Frauenkirche_and_Neues_Rathaus_Munich_March_2013.JPG" 
         />
         <meta
           name="url" 
