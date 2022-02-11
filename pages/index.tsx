@@ -25,6 +25,7 @@ const Home: NextPage = () => {
         <meta property="og:url" content="/" />
         <meta property="og:type" content="website" />
         <meta property="fb:app_id" content="rizwanmushtaqdhudhaal" />
+        <meta property="linkedIn:app_id" content="rizwanmushtaqdhudhaal" />
         <meta
           property="og:title"
           content="Social Media Preview Working?"
