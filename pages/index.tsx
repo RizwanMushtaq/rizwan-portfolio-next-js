@@ -19,24 +19,35 @@ const Home: NextPage = () => {
       <Head>
         <title>Rizwan Portfolio</title>
         <meta
-          name="description"
-          content="Rizwan Mushtaq Dhudhaal Portfolio generated in Next.js"
-        />
-        <meta property="og:url" content="/" />
-        <meta property="og:type" content="website" />
-        <meta property="fb:app_id" content="rizwanmushtaqdhudhaal" />
-        <meta property="linkedIn:app_id" content="rizwanmushtaqdhudhaal" />
-        <meta
+          name="title"
           property="og:title"
           content="Social Media Preview Working?"
         />
-        <meta name="twitter:card" content="summary" />
         <meta
-          property="og:description"
-          content="Hurray!! Yes Social Media Preview is Working"
+          name="type" 
+          property="og:type" 
+          content="website" 
         />
-        <meta property="og:image" content={RizwanPic} />
-
+        <meta
+          name="description"
+          property="og:description"
+          content="Rizwan Mushtaq Dhudhaal Portfolio WebApp generated in Next.js"
+        />
+        <meta
+          name="image" 
+          property="og:image" 
+          content={RizwanPic} 
+        />
+        <meta
+          name="url" 
+          property="og:url" 
+          content="https://rizwan-portfolio-next-js.vercel.app/" 
+        />
+        
+        {/* <meta property="fb:app_id" content="rizwanmushtaqdhudhaal" />
+        <meta property="linkedIn:app_id" content="rizwanmushtaqdhudhaal" />
+        <meta name="twitter:card" content="summary" /> */}
+       
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
