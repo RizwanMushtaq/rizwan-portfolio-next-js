@@ -22,8 +22,23 @@ const Home: NextPage = () => {
           name="description"
           content="Rizwan Mushtaq Dhudhaal Portfolio generated in Next.js"
         />
+        <meta property="og:url" content="your url" />
+        <meta property="og:type" content="website" />
+        <meta property="fb:app_id" content="rizwanmushtaqdhudhaal" />
+        <meta
+          property="og:title"
+          content="Social Media Preview Working?"
+        />
+        <meta name="twitter:card" content="summary" />
+        <meta
+          property="og:description"
+          content="Hurray!! Yes Social Media Preview is Working"
+        />
+        <meta property="og:image" content={"/favicon.ico"} />
+
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      
       <div className={Styles.WelcomeCardContainer}>
         <Card type={"welcomeCard"}>
           <div className={Styles.container}>
