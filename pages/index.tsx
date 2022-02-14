@@ -33,7 +33,7 @@ const Home: NextPage = () => {
         <meta
           name="description"
           property="og:description"
-          content="Hallo, Welcome I'm Rizwan Mushtaq Dhudhaal. 😇
+          content="Hallo, Welcome I'm Rizwan Mushtaq Dhudhaal.
                   I am a Full Stack Web Developer. I am confident in JavaScript, TypeScript, React.JS and Node.JS.
                   I have around 5 years of Experience, working in the information technology and services industry."
         />
