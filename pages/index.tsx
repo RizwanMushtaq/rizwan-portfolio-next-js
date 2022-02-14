@@ -63,10 +63,10 @@ const Home: NextPage = () => {
               <div className={Styles.introduction}>
                 <div className={Styles.greeting}>Hello</div>
                 <div className={Styles.description}>
-                  <div>Welcome I&apos;m Rizwan Mushtaq Dhudhaal. 😇</div>
+                  <div>Welcome I&apos;m Rizwan Mushtaq Dhudhaal.</div>
                   <ul>
                     <li>
-                      <div>❇️</div>
+                      
                       <div className={Styles.text}>
                         I am a Full Stack Web Developer. I am confident in
                         JavaScript, TypeScript, React.JS and Node.JS.
@@ -74,7 +74,7 @@ const Home: NextPage = () => {
                     </li>
 
                     <li>
-                      <div>❇️</div>
+                     
                       <div className={Styles.text}>
                         I have around 5 years of Experience, working in the
                         information technology and services industry.
@@ -82,7 +82,7 @@ const Home: NextPage = () => {
                     </li>
 
                     <li>
-                      <div>❇️</div>
+                      
                       <div className={Styles.text}>
                         I have 3 years of experience working with Agile Teams.
                         Ensuring Quality of software products by working closely
